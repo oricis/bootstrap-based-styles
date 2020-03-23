@@ -6,10 +6,10 @@
  */
 
 .button-group .btn {
-    background: red;
-    border:1px solid grey;
-    border-radius: 3px;
-    padding: 2rem;
+    border        : 1px solid grey;
+    border-radius : 3px;
+    cursor        : pointer;
+    padding       : 1rem;
 }
 .button-group .btn-primary {
     background: #2196F3;
