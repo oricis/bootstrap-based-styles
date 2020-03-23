@@ -1,0 +1,44 @@
+@import './sass/vars.scss';
+@import './sass/functions.scss';
+
+/***********************************************************************
+ * Bootstrap based styles - buttons
+ *
+ * Moisés Alcocer, 2020
+ * https://www.ironwoods.es
+ */
+
+.button-group {
+    .btn {
+        border        : 1px solid grey(1);
+        border-radius : 3px;
+        cursor        : pointer;
+        padding       : 1rem;
+    }
+
+    .btn-primary {
+        background: blue(.8);
+        border-color: $blue;
+    }
+    .btn-primary:hover {
+        background: $blue;
+    }
+    .btn-danger {
+        background: red(.8);
+        border-color: $red;
+    }
+    .btn-danger:hover {
+        background: $red;
+    }
+    .btn-default {
+        background: grey(.1);
+        border-color: grey(.3)
+    }
+    .btn-default:hover {
+        background: grey(.3);
+    }
+
+    .btn-unrounded {
+        border-radius: 0;
+    }
+}
