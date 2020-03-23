@@ -33,6 +33,6 @@
     background: #E5E5E5;
 }
 
-.button-group .btn-rounded {
-    border-radius: 3px;
+.button-group .btn-unrounded {
+    border-radius: 0;
 }
