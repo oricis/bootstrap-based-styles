@@ -1,0 +1,14 @@
+/***********************************************************************
+ * Common styles
+ *
+ * Moisés Alcocer, 2020
+ * https://www.ironwoods.es
+ */
+
+.bordered {
+    border: 1px solid grey !important;
+}
+
+.rounded {
+    border-radius: 5px;
+}

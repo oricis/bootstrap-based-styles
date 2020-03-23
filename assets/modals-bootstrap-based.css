@@ -1,0 +1,49 @@
+/***********************************************************************
+ * Bootstrap based styles - modals
+ *
+ * Moisés Alcocer, 2019-2020
+ * https://www.ironwoods.es
+ */
+
+.d-block {
+    display: block;
+}
+.d-none {
+    display: none;
+}
+
+.modal * {
+    all: unset;
+    text-align: center;
+}
+
+.modal {
+    background: white;
+    margin: 1rem auto;
+}
+.modal div {
+    display: block;
+}
+.modal h3,
+.modal h4 {
+    font-size: 1.05em;
+}
+.modal .close-modal {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 2em;
+}
+.modal .close-modal .close-btn {
+    margin-right: 1rem;
+}
+.modal .modal-body,
+.modal .modal-footer,
+.modal .modal-header {
+    padding: 1rem;
+}
+.modal .modal-body,
+.modal .modal-footer,
+.modal .modal-header .modal-header-content {
+    margin:    0 auto;
+    max-width: 480px;
+}

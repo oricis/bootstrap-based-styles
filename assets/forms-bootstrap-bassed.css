@@ -1,0 +1,112 @@
+/***********************************************************************
+ * Bootstrap based styles - forms
+ *
+ * Moisés Alcocer, 2020
+ * https://www.ironwoods.es
+ */
+
+.form-group {
+    display         : flex !important;
+    justify-content : center;
+    margin-bottom   : 1rem;
+}
+.form-group:first-child {
+    margin-top: 1rem;
+}
+
+.form-group input,
+.form-group .checkbox {
+    border-radius: 3px;
+    border: 1px solid grey;
+    text-align: left;
+}
+
+.form-group input[type="number"],
+.form-group input[type="password"],
+.form-group input[type="text"] {
+    height  : unset;
+    padding : .9rem;
+    width   : 100%;
+}
+
+/**
+ * Checkbox and radio styles from:
+ * https://www.w3schools.com/howto/howto_css_custom_checkbox.asp
+ */
+.form-group input[type="checkbox"],
+.form-group input[type="radio"] {
+    display: none;
+}
+
+/* Create a custom checkbox */
+.form-group .checkbox {
+    position        : absolute;
+    top             : -2px; /* center the element with respect to the text */
+    left            : 0;
+    height          : 1.5rem;
+    width           : 1.5rem;
+}
+.form-group .checkbox-type-radio {
+    border-radius: 50%;
+}
+.form-group .custom-check {
+    cursor              : pointer;
+    display             : block;
+    margin-bottom       : 1rem;
+    padding-left        : 2.5rem;
+    position            : relative;
+    text-align          : left;
+    user-select         : none;
+    width               : 100%;
+    -webkit-user-select : none;
+    -moz-user-select    : none;
+    -ms-user-select     : none;
+}
+
+/* On mouse-over, add a grey background color */
+.form-group .custom-check:hover input ~ .checkbox {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.form-group .custom-check input:checked ~ .checkbox {
+    background-color: #2196F3;
+}
+
+/* Create the checkbox/indicator (hidden when not checked) */
+.checkbox:after {
+    content : "";
+    position: absolute;
+    display : none;
+}
+
+/* Show the checkbox when checked */
+.form-group .custom-check input:checked ~ .checkbox:after {
+    display: block;
+}
+
+/* Style the checkbox/indicator */
+.form-group .custom-check .checkbox:after {
+    left              : 9px;
+    top               : 4px;
+    width             : 7px;
+    height            : 13px;
+    border            : solid white;
+    border-width      : 0 3px 3px 0;
+    -webkit-transform : rotate(45deg);
+    -ms-transform     : rotate(45deg);
+    transform         : rotate(45deg);
+}
+.form-group .custom-check .checkbox-type-radio:after {
+    border-radius     : 50%;
+    left              : 4px;
+    top               : 4px;
+    width             : .5rem;
+    height            : .5rem;
+    border            : solid white;
+    border-width      : .5rem;
+    -webkit-transform : none;
+    -ms-transform     : none;
+    transform         : none;
+}
+
