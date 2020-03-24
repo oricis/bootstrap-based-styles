@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="../assets/modals-bootstrap-based.css" />
     <link rel="stylesheet" href="../assets/forms-bootstrap-bassed.css" />
     <link rel="stylesheet" href="../assets/buttons-bootstrap-based.css" />
+
+    <script src="../assets/js/functions.js"></script>
 </head>
 <body style="background: grey; padding: 1rem;">
 
@@ -95,23 +97,5 @@
             </div>
         </div>
     </div>
-
-    <script>
-        function $(id)
-        {
-            return document.getElementById(id);
-        }
-
-        function closeModal(modal_id)
-        {
-            $(modal_id).classList.remove('d-block');
-            $(modal_id).classList.add('d-none');
-        }
-        function showModal(modal_id)
-        {
-            $(modal_id).classList.remove('d-none');
-            $(modal_id).classList.add('d-block');
-        }
-    </script>
 </body>
 </html>
