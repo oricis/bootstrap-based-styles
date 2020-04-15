@@ -13,13 +13,11 @@ function $(id)
 
 function closeModal(modal_id)
 {
-    $(modal_id).classList.remove('d-block');
     $(modal_id).classList.add('d-none');
 }
 
 function showModal(modal_id)
 {
     $(modal_id).classList.remove('d-none');
-    $(modal_id).classList.add('d-block');
 }
 
