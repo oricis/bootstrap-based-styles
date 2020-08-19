@@ -1,6 +1,6 @@
 /***********************************************************************
  * Bootstrap based styles - buttons
- * v.1.0.0
+ * v.1.0.1
  *
  * Moisés Alcocer, 2020
  * https://github.com/oricis/bootstrap-based-styles
@@ -32,7 +32,7 @@
 .button-group .btn-default {
     background  : white;
     border-color: grey;
-    color       : rgb(26, 26, 26);
+    color       : #161616;
 }
 .button-group .btn-default:hover {
     background: #E5E5E5;

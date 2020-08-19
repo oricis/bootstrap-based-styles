@@ -3,7 +3,7 @@
 
 /***********************************************************************
  * Bootstrap based styles - buttons
- * v.1.0.0
+ * v.1.0.1
  *
  * Moisés Alcocer, 2020
  * https://github.com/oricis/bootstrap-based-styles
@@ -37,7 +37,7 @@
     .btn-default {
         background  : grey(.1);
         border-color: grey(.3);
-        color       : rgb(26, 26, 26);
+        color       : $darkgrey;
     }
     .btn-default:hover {
         background: grey(.3);
