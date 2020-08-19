@@ -8,7 +8,9 @@
 .button-group .btn {
     border        : 1px solid grey;
     border-radius : 3px;
+    color         : white;
     cursor        : pointer;
+    font-weight   : 600;
     padding       : 1rem;
 }
 .button-group .btn-primary {
@@ -26,8 +28,9 @@
     background: #B82D18;
 }
 .button-group .btn-default {
-    background: white;
+    background  : white;
     border-color: grey;
+    color       : rgb(26, 26, 26);
 }
 .button-group .btn-default:hover {
     background: #E5E5E5;

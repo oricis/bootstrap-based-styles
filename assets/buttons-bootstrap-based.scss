@@ -12,7 +12,9 @@
     .btn {
         border        : 1px solid grey(1);
         border-radius : 3px;
+        color         : white;
         cursor        : pointer;
+        font-weight   : 600;
         padding       : 1rem;
     }
 
@@ -31,8 +33,9 @@
         background: $red;
     }
     .btn-default {
-        background: grey(.1);
-        border-color: grey(.3)
+        background  : grey(.1);
+        border-color: grey(.3);
+        color       : rgb(26, 26, 26);
     }
     .btn-default:hover {
         background: grey(.3);
