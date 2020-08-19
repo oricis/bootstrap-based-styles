@@ -1,6 +1,6 @@
 /***********************************************************************
  * Bootstrap based styles - buttons
- * v.1.0.1
+ * v.1.0.2
  *
  * Moisés Alcocer, 2020
  * https://github.com/oricis/bootstrap-based-styles
@@ -8,13 +8,20 @@
  */
 
 .button-group .btn {
-    border        : 1px solid grey;
-    border-radius : 3px;
-    color         : white;
-    cursor        : pointer;
-    font-weight   : 600;
-    padding       : 1rem;
+    appearance        : button;
+    border            : 1px solid grey;
+    border-radius     : 3px;
+    color             : white;
+    cursor            : pointer;
+    display           : inline-block;
+    font-size         : inherit;
+    font-weight       : 600;
+    list-style        : none;
+    padding           : 1rem;
+    text-decoration   : none;
+    vertical-align    : middle;
 }
+
 .button-group .btn-primary {
     background: #2196F3;
     border-color: blue;

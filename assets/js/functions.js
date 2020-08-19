@@ -1,6 +1,6 @@
 /***********************************************************************
  * JS functions
- * v.1.0.1
+ * v.1.0.2
  *
  * Moisés Alcocer, 2020
  * https://github.com/oricis/bootstrap-based-styles
