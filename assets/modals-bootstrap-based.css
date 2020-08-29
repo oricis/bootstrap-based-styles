@@ -68,3 +68,29 @@
     width     : 100%;
     z-index   : 1000;
 }
+
+
+@media (min-width: 380px) {
+    .modal-content {
+        left : calc(10% / 2);
+        width: 90%;
+    }
+}
+@media (min-width: 640px) {
+    .modal-content {
+        left : calc(24% / 2);
+        width: 76%;
+    }
+}
+@media (min-width: 920px) {
+    .modal-content {
+        left : calc(38% / 2);
+        width: 62%;
+    }
+}
+@media (min-width: 1200px) {
+    .modal-content {
+        left : calc(52% / 2);
+        width: 48%;
+    }
+}
