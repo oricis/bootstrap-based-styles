@@ -48,3 +48,6 @@
 .button-group .btn-unrounded {
     border-radius: 0;
 }
+.button-group .btn-small {
+    padding: .5rem;
+}
