@@ -9,10 +9,8 @@
 
 .pagination {
     border-radius : 3px;
-    /*display       : -ms-flexbox;
-    display       : flex;*/
-    display: inline-block;
-    margin    : 5% auto 0;
+    display       : inline-flex;
+    margin        : 5% auto 0;
 }
 .pagination * {
     display         : inherit;
@@ -48,7 +46,7 @@
 .page-link {
     padding: .5rem .75rem;
 }
-.page-link:disabled,
-.page-link.disabled {
+.active .page-link,
+.disabled .page-link {
     cursor: auto;
 }
