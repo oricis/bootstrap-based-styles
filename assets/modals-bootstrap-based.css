@@ -51,7 +51,7 @@
 .modal-content {
     background: white;
     border-radius: 5px;
-    left      : 1%;
+    left      : calc(1% - 1px);
     position  : fixed;
     top       : 50%;
     transform : translate(0, -50%);
@@ -72,25 +72,25 @@
 
 @media (min-width: 380px) {
     .modal-content {
-        left : calc(10% / 2);
+        left : calc(5% - 1px);
         width: 90%;
     }
 }
 @media (min-width: 640px) {
     .modal-content {
-        left : calc(24% / 2);
+        left : calc(12% - 1px);
         width: 76%;
     }
 }
 @media (min-width: 920px) {
     .modal-content {
-        left : calc(38% / 2);
+        left : calc(18% - 1px);
         width: 62%;
     }
 }
 @media (min-width: 1200px) {
     .modal-content {
-        left : calc(52% / 2);
+        left : calc(26% - 1px);
         width: 48%;
     }
 }
