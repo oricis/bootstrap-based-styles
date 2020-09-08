@@ -7,10 +7,10 @@
  * https://www.ironwoods.es
  */
 
-.modal.d-none {
+.modal {
     display: none;
 }
-.modal {
+.modal:target {
     display: block;
 }
 .modal * {
@@ -32,12 +32,15 @@
     font-size: 1.1em;
 }
 .modal .close-modal {
-    display: flex;
+    display       : flex;
     flex-direction: row-reverse;
-    height: 2em;
+    height        : 2em;
 }
 .modal .close-modal .close-btn {
-    margin-right: 1rem;
+    align-content : center;
+    cursor        : pointer;
+    display       : grid;
+    padding       : 1rem;
 }
 .modal .modal-body,
 .modal .modal-footer,
