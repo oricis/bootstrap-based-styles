@@ -1,7 +1,9 @@
 /***********************************************************************
  * Bootstrap based styles - modals
+ * v.1.2.0
  *
- * Moisés Alcocer, 2019-2020
+ * Moisés Alcocer, 2020
+ * https://github.com/oricis/bootstrap-based-styles
  * https://www.ironwoods.es
  */
 
@@ -51,10 +53,11 @@
 .modal-content {
     background: white;
     border-radius: 5px;
-    left      : calc(1% - 1px);
+    left      : calc((100% - 320px) / 2);
+    max-width : 320px;
     position  : fixed;
     top       : 9%;
-    width     : 98%;
+    width     : 99%;
     max-height: 90%;
     z-index   : 1001;
 }
@@ -68,28 +71,14 @@
     z-index   : 1000;
 }
 
-
-@media (min-width: 380px) {
-    .modal-content {
-        left : calc(5% - 1px);
-        width: 90%;
-    }
-}
-@media (min-width: 640px) {
-    .modal-content {
-        left : calc(12% - 1px);
-        width: 76%;
-    }
-}
-@media (min-width: 920px) {
-    .modal-content {
-        left : calc(18% - 1px);
-        width: 62%;
-    }
-}
-@media (min-width: 1200px) {
-    .modal-content {
-        left : calc(26% - 1px);
-        width: 48%;
-    }
-}
+/**
+ * Default modal width: 320px
+ * Overwrite next rules to customize modal width:
+ *
+ * left      : calc((100% - 320px) / 2);
+ * max-width : 320px;
+ *
+ *
+ * Example: modals-login-modal
+ *
+ */

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modals example: login modal</title>
+
+    <link rel="stylesheet" href="../assets/reset.min.css">
+    <link rel="stylesheet" href="../assets/common.css">
+    <link rel="stylesheet" href="../assets/modals-bootstrap-based.css">
+    <link rel="stylesheet" href="../assets/forms-bootstrap-bassed.css">
+    <link rel="stylesheet" href="../assets/buttons-bootstrap-based.css">
+
+    <script src="../assets/js/functions.js"></script>
+</head>
+<body style="background: grey; padding: 1rem 15%">
+
+    <div class="content">
+        <div class="button-group">
+            <button onclick="showModal('feedback-modal')" class="btn btn-default">
+                Click to display a feedback modal
+            </button>
+        </div>
+
+        <br>
+        <h3>Details</h3>
+        <p>The modal container (div) has an id, in this case: "feedback-modal",
+        and two neccessary CSS classes: "modal" and "d-none".</p>
+        <p>The modal id is used in the functions to open and close the modal,
+        adding / removind the CSS clases "d-block" and "d-none". The function
+        used to close the modal must be related with the buttons used to close
+        the modal: the x button placed in the upper right corner of the modal
+        and additional buttons to close the modal in other use cases.</p>
+    </div>
+
+    <!-- modals -->
+
+    <div id="feedback-modal" class="modal modal-overlay d-none">
+        <div class="modal-content bordered">
+            <div class="modal-header">
+                <div class="close-modal">
+                    <button type="button"
+                        class="btn close-btn"
+                        onclick="closeModal('feedback-modal')">
+                        ×
+                    </button>
+                </div>
+
+                <div class="modal-header-content">
+                    <h4 class="modal-title">Message</h4>
+                </div>
+            </div>
+
+            <div class="modal-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </div>
+        </div>
+    </div>
+</body>
+</html>

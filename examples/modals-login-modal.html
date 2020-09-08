@@ -14,8 +14,14 @@
     <script src="../assets/js/functions.js"></script>
 
     <style>
-        #login-modal * {
-            max-width: 640px;
+        #login-modal .modal-content {
+            left      : calc(0.5% - 1px);
+            max-width : 640px;
+        }
+        @media (min-width: 640px) {
+            #login-modal .modal-content {
+                left  : calc((100% - 640px) / 2);
+            }
         }
     </style>
 </head>
@@ -41,7 +47,7 @@
 
     <!-- modals -->
 
-    <div id="login-modal" class="modal modal-overlay d-none">
+    <div id="login-modal" class="modal modal-720 modal-overlay d-none">
         <div class="modal-content bordered">
             <div class="modal-header">
                 <div class="close-modal">
