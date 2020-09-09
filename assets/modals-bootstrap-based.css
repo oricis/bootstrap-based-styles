@@ -1,6 +1,6 @@
 /***********************************************************************
  * Bootstrap based styles - modals
- * v.1.4.1
+ * v.1.4.2
  *
  * Moisés Alcocer, 2020
  * https://github.com/oricis/bootstrap-based-styles
@@ -17,14 +17,6 @@
 }
 .modal * {
     text-align: center;
-}
-.modal h3,
-.modal h4 {
-    font-size: 1.2em;
-    font-weight: bold;
-}
-.modal h4 {
-    font-size: 1.1em;
 }
 .modal .close-modal {
     display       : flex;
@@ -51,9 +43,6 @@
     max-width : 480px;
     padding   : 1rem;
 }
-.modal-content-scrollable {
-    overflow-y: auto;
-}
 .modal-overlay {
     background: rgba(255, 255, 255, 0.7);
     height    : 100%;
@@ -69,7 +58,22 @@
  *
  * max-width : 320px;
  *
- *
  * Example: modals-login-modal
  *
+ *
+ * NOTE:
+ * Next styles can be removed to customize or size optimization
  */
+
+.modal h3,
+.modal h4 {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.modal h4 {
+    font-size: 1.1em;
+}
+.modal-content-scrollable {
+    overflow-y: auto;
+}
+/**/
