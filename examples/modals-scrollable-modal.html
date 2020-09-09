@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modals example: login modal</title>
+
+    <link rel="stylesheet" href="../assets/reset.min.css">
+    <link rel="stylesheet" href="../assets/common.css">
+    <link rel="stylesheet" href="../assets/modals-bootstrap-based.css">
+    <link rel="stylesheet" href="../assets/forms-bootstrap-bassed.css">
+    <link rel="stylesheet" href="../assets/buttons-bootstrap-based.css">
+
+    <style>
+        #login-modal .modal-content {
+            max-width : 640px;
+        }
+        #login-modal .button-group a {
+            margin-right: 1rem;
+        }
+    </style>
+</head>
+<body style="background: grey; padding: 1rem 15%">
+
+    <div class="content">
+        <div class="button-group">
+            <a href="#login-modal"
+                class="btn btn-default"
+                role="button"
+                aria-label="Show modal">
+                Click to display a scrollable modal
+            </a>
+        </div>
+
+        <br>
+        <h3>Details</h3>
+        <p>The modal container (div) has an id, in this case: "login-modal".</p>
+        <p>The modal id is used as <em>target</em> to swap the modal visibility.</p>
+        <br>
+        <p>This modal example has some extra content in the bottom.
+        It's necessary use <strong>vertical scroll</strong> to can see all.</p>
+    </div>
+
+    <!-- modals -->
+
+    <div id="login-modal"
+        class="modal modal-overlay"
+        aria-hidden="true">
+        <div class="modal-content modal-content-scrollable bordered">
+            <div class="modal-header">
+                <div class="close-modal">
+                    <a href=""
+                        role="button"
+                        class="close-btn"
+                        aria-label="Close">
+                        ×
+                    </a>
+                </div>
+
+                <div class="modal-header-content">
+                    <h4 class="modal-title">Login</h4>
+                </div>
+            </div>
+
+            <div class="modal-body">
+                <form action="#" id="login-form">
+                    <div class="form-group">
+                        <input type="text"
+                        name="email"
+                        placeholder="Email"
+                        required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text"
+                        name="name"
+                        placeholder="Name"
+                        required>
+                    </div>
+                    <div class="form-group">
+                        <input type="password"
+                        name="password"
+                        placeholder="Password"
+                        required>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="custom-check">
+                            <input type="checkbox"
+                                class="bordered"
+                                name="remember">
+                            <span class="checkbox"></span>
+                            Remember me
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label class="custom-check">
+                            <input type="checkbox" class="bordered" name="remember">
+                            <span class="checkbox checkbox-type-radio"></span>
+                            Test mode
+                        </label>
+                    </div>
+
+                    <div class="form-group button-group">
+                        <a href="" role="button" class="btn btn-default" aria-label="Close">
+                            Cancel
+                        </a>
+                        <button class="btn btn-primary" title="Send login form">
+                            Sign in
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="modal-footer">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum dolorum, quis rem quaerat perspiciatis possimus perferendis, illum eveniet adipisci unde reprehenderit vel excepturi, dolore fuga modi. Vel dolores atque molestiae.
+            </div>
+        </div>
+    </div>
+</body>
+</html>
