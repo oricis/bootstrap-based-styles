@@ -1,6 +1,6 @@
 /***********************************************************************
  * Bootstrap based styles - modals
- * v.1.3.1
+ * v.1.3.2
  *
  * Moisés Alcocer, 2020
  * https://github.com/oricis/bootstrap-based-styles
@@ -11,19 +11,12 @@
     display: none;
 }
 .modal:target {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    align-items     : center;
+    display         : flex;
+    justify-content : center;
 }
 .modal * {
-    all: unset;
     text-align: center;
-}
-.modal div, p, ul {
-    display: block;
-}
-.modal li {
-    display: inherit;
 }
 .modal h3,
 .modal h4 {
@@ -39,10 +32,11 @@
     height        : 2em;
 }
 .modal .close-modal .close-btn {
-    align-content : center;
-    cursor        : pointer;
-    display       : grid;
-    padding       : 1rem;
+    align-content   : center;
+    cursor          : pointer;
+    display         : grid;
+    padding         : 1rem;
+    text-decoration : none;
 }
 .modal .modal-body,
 .modal .modal-footer,
@@ -60,8 +54,8 @@
     border-radius: 5px;
     max-width : 320px;
     position  : fixed;
-    width     : 99%;
-    max-height: 90%;
+    width     : 98%;
+    max-height: 98%;
 }
 .modal-overlay {
     background: rgba(255, 255, 255, 0.7);
