@@ -1,6 +1,6 @@
 /***********************************************************************
  * Bootstrap based styles - modals
- * v.1.2.0
+ * v.1.3.1
  *
  * Moisés Alcocer, 2020
  * https://github.com/oricis/bootstrap-based-styles
@@ -11,7 +11,9 @@
     display: none;
 }
 .modal:target {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .modal * {
     all: unset;
@@ -56,13 +58,10 @@
 .modal-content {
     background: white;
     border-radius: 5px;
-    left      : calc((100% - 320px) / 2);
     max-width : 320px;
     position  : fixed;
-    top       : 9%;
     width     : 99%;
     max-height: 90%;
-    z-index   : 1001;
 }
 .modal-overlay {
     background: rgba(255, 255, 255, 0.7);
@@ -71,14 +70,12 @@
     position  : fixed;
     top       : 0;
     width     : 100%;
-    z-index   : 1000;
 }
 
 /**
  * Default modal width: 320px
- * Overwrite next rules to customize modal width:
+ * Overwrite next rule to customize modal width:
  *
- * left      : calc((100% - 320px) / 2);
  * max-width : 320px;
  *
  *
