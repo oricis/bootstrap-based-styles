@@ -22,7 +22,9 @@
     text-decoration   : none;
     vertical-align    : middle;
 }
-
+.button-group .btn:disabled {
+     cursor: default;
+}
 .button-group .btn-primary {
     background: #2196F3;
     border-color: blue;
