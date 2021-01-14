@@ -1,6 +1,10 @@
 /***********************************************************************
  * Bootstrap based styles - modals
+<<<<<<< HEAD
  * v.1.4.2
+=======
+ * v.1.4.1
+>>>>>>> 283027e4c2d3ba3eeaa0e20b63193265abd0ae53
  *
  * Moisés Alcocer, 2020
  * https://github.com/oricis/bootstrap-based-styles
@@ -29,6 +33,11 @@
     display         : grid;
     padding         : 1rem;
     text-decoration : none;
+}
+.modal .modal-body,
+.modal .modal-footer,
+.modal .modal-header .modal-header-content {
+    margin: 0 auto;
 }
 .modal-content {
     background: white;
