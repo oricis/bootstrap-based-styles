@@ -29,26 +29,26 @@
     .btn:disabled {
         cursor: default;
     }
-    .btn-primary {
+    &.btn-primary {
         background: blue(.8);
         border-color: $blue;
     }
-    .btn-primary:hover {
+    &.btn-primary:hover {
         background: $blue;
     }
-    .btn-danger {
+    &.btn-danger {
         background: red(.8);
         border-color: $red;
     }
-    .btn-danger:hover {
+    &.btn-danger:hover {
         background: $red;
     }
-    .btn-default {
+    &.btn-default {
         background  : grey(.1);
         border-color: grey(.3);
         color       : $darkgrey;
     }
-    .btn-default:hover {
+    &.btn-default:hover {
         background: grey(.3);
     }
 
