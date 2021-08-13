@@ -1,6 +1,5 @@
 /***********************************************************************
  * Bootstrap based styles - SASS variables
- * v.1.0.2
  *
  * Moisés Alcocer, 2020
  * https://github.com/oricis/bootstrap-based-styles
@@ -8,11 +7,13 @@
  */
 
 $black    : rgb(6, 6, 7);
-$blue     : #52BA68;
+$blue     : rgb(72, 72, 255);
 $darkgrey : #161616;
+$green    : #29a544;
 $grey     : #48484A;
 $pink     : #FB9985;
+$red      : #f85534;
 $white    : white;
-$yellow   : rgb(240, 240, 30);
+$yellow   : rgb(255, 255, 0);
 
 $font-size: 15px;

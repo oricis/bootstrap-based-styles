@@ -1,8 +1,7 @@
-# Bootstrap based styles
+# Bootstrap based styles v.2.1.0
 
 These CSS / SCSS files are inspired visually in the [Bootstrap framework][1]
-and use the identical CSS class names in the most of cases to achieve
-compatibility in the styled work.
+and use identical or similar CSS class names.
 
 ***
 
@@ -11,13 +10,13 @@ compatibility in the styled work.
 Usually, there are a SCSS file and one similar file in pure CSS to
 projects where are not used SASS compilers.
 
-Is posible to find the next files:
+This version content files to styled:
 
- - One to create buttons.
- - One to create modals.
- - One with form styles.
+ - Buttons.
+ - Forms.
+ - Modals.
 
-These files are placed in the folder "assets/" and subfolders.
+The CSS / SCSS files are placed in the folder "assets/" and subfolders.
 
 The examples are placed in the folder "examples/".
 

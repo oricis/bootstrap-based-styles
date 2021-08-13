@@ -16,20 +16,27 @@
         * {
             font-family: 'Nunito';
         }
+        img.icon {
+            height: 1rem;
+            width : 1rem;
+        }
         .inline-block {
             display: inline-block;
         }
 
         .both-1 {
-            margin-left: 1%;
+            margin-left : 1%;
             margin-right: 1%;
         }
         .top-1 {
             margin-top: 1%;
         }
+        .top-5 {
+            margin-top: 5%;
+        }
     </style>
 </head>
-<body style="background: grey; padding: 1rem;">
+<body style="background: white; padding: 4%">
 
     <div class="content">
         <h3>Details</h3>
@@ -58,6 +65,27 @@
             </button>
         </div>
         <div class="button-group top-1">
+            <button class="both-1 btn btn-primary btn-small">
+                <span>
+                    <img class="icon"  src="assets/images/icons/Document.svg"></img>
+                    button
+                </span>
+            </button>
+            <button class="both-1 btn btn-danger btn-small">
+                <span>
+                    <img class="icon"  src="assets/images/icons/Document.svg"></img>
+                    button
+                </span>
+            </button>
+            <button class="both-1 btn btn-default btn-small">
+                <span>
+                    <img class="icon"  src="assets/images/icons/Document.svg"></img>
+                    button
+                </span>
+            </button>
+        </div>
+
+        <div class="button-group top-1">
             <button class="both-1 btn btn-primary btn-outline">
                 button
             </button>
@@ -79,6 +107,28 @@
                 button
             </button>
         </div>
+        <div class="button-group top-1">
+            <button class="both-1 btn btn-primary btn-small btn-outline">
+                <span>
+                    <img class="icon"  src="assets/images/icons/Document.svg"></img>
+                    button
+                </span>
+            </button>
+            <button class="both-1 btn btn-danger btn-small btn-outline">
+                <span>
+                    <img class="icon"  src="assets/images/icons/Document.svg"></img>
+                    button
+                </span>
+            </button>
+            <button class="both-1 btn btn-default btn-small btn-outline">
+                <span>
+                    <img class="icon"  src="assets/images/icons/Document.svg"></img>
+                    button
+                </span>
+            </button>
+        </div>
     </div>
+
+    <p class="top-5">Icons from: https://systemuicons.com/</p>
 </body>
 </html>

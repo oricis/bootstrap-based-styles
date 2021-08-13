@@ -1,0 +1,53 @@
+@import './sass/vars.scss';
+@import './sass/functions.scss';
+
+/***********************************************************************
+ * Bootstrap based styles - buttons
+ * v.2.1.0
+ *
+ * Moisés Alcocer, 2020
+ * https://github.com/oricis/bootstrap-based-styles
+ * https://www.ironwoods.es
+ */
+
+.button-group {
+    .btn {
+        &.btn-outline {
+            background: white;
+
+            &.btn-danger {
+                border-color: red(1);
+                color       : red(1);
+                span {
+                    color: red(1);
+                }
+
+                &:hover {
+                    background: red(.15);
+                }
+            }
+            &.btn-default {
+                border-color: black(.8);
+                color       : black(.8);
+                span {
+                    color: black(.8);
+                }
+
+                &:hover {
+                    background: black(.15);
+                }
+            }
+            &.btn-primary {
+                border-color: blue(1);
+                color       : blue(1);
+                span {
+                    color: blue(1);
+                }
+
+                &:hover {
+                    background: blue(.15);
+                }
+            }
+        }
+    }
+}

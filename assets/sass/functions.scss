@@ -1,6 +1,5 @@
 /***********************************************************************
  * Bootstrap based styles - SASS functions
- * v.1.0.2
  *
  * Moisés Alcocer, 2020
  * https://github.com/oricis/bootstrap-based-styles
@@ -9,25 +8,33 @@
 
 @function black($opacity: 1)
 {
-    @return rgba(6,6,7, $opacity: 1);
+    @return rgba(6,6,7, $opacity);
 }
 @function blue($opacity: 1)
 {
-    @return rgba(82,186,104, $opacity);
+    @return rgba(0, 15, 220, $opacity);
+}
+@function green($opacity: 1)
+{
+    @return rgba(0, 135, 22, $opacity);
 }
 @function grey($opacity: 1)
 {
     @return rgba(72,72,74, $opacity);
 }
-@function pink($opacity)
+@function pink($opacity: 1)
 {
     @return rgba(251,153,133, $opacity);
 }
-@function white($opacity)
+@function red($opacity: 1)
+{
+    @return rgba(228, 38, 0, $opacity);
+}
+@function white($opacity: 1)
 {
     @return rgba(255,255,255, $opacity);
 }
-@function yellow($opacity)
+@function yellow($opacity: 1)
 {
     @return rgba(240,240,30, $opacity);
 }
